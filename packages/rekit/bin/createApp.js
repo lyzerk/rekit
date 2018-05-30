@@ -16,7 +16,7 @@ const utils = require('./utils');
 function createApp(args) {
   const prjName = args.name;
   if (!prjName) {
-    console.log('Error: please specify the project name.');
+    console.log('Error: please specify the project name and title.');
     process.exit(1);
   }
 
