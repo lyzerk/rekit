@@ -1,0 +1,18 @@
+{
+    "Id": "2",
+    "ProbeType": "CodeChanges",
+    "Object": {
+      "Name": "createApp",
+      "Path": "packages/rekit/bin/createApp.js",
+      "Type": "function"
+    },
+    "Actuators":[
+        {
+            "Type": "Email",
+            "Emails" : [
+                "ozdemirali@itu.edu.tr"
+            ]
+        }
+    ],
+    "Modifiers": null
+  }

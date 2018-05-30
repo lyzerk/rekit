@@ -1,0 +1,24 @@
+{
+    "Id": "1",
+    "ProbeType": "StaticAnalysis",
+    "Object": {
+        "Name": "copyFileSync",
+        "Path": "packages/rekit/bin/utils.js",
+        "Type": "function"
+    },
+    "Actuators": [
+        {
+            "Type": "Email",
+            "Emails": [
+                "ozdemirali@itu.edu.tr"
+            ]
+        }
+    ],
+    "Metrics": {
+        "Strategy": "Always",
+        "Arguments": [
+            "complexity:[\"error\", 2]"
+        ]
+    },
+    "Modifiers": null
+}
