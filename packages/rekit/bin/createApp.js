@@ -16,7 +16,7 @@ const test = 10;
 function createApp(args) {
   const prjName = args.name;
   if (!prjName) {
-    console.log('Error: please specify the project name and title.');
+    console.log('Error: please specify the project name.');
     process.exit(1);
   }
 
