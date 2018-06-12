@@ -7,7 +7,6 @@ const path = require('path');
 const fs = require('fs');
 const download = require('download-git-repo');
 const utils = require('./utils');
-const test = 10;
 // function download(a1, dest, callback) {console.log('creating from: ', a1);
 //   utils.copyFolderRecursiveSync(path.join(__dirname, '../../../../rekit-boilerplate-cra'), dest, p => !/node_modules|\/coverage|\/build/.test(p));
 //   callback();
