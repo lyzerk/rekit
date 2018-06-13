@@ -15,10 +15,10 @@ const utils = require('./utils');
 function createApp(args) {
   const prjName = args.name;
   if (!prjName) {
-    console.log('Error: please specify the project name and title.');
+    console.log('Error: please specify the project name.');
     process.exit(1);
   }
-
+  const test = 10;
   // The created project dir
   const prjPath = path.join(process.cwd(), prjName);
   if (fs.existsSync(prjPath)) {
