@@ -9,8 +9,7 @@ function copyFileSync(source, target) {
   let targetFile = target;
 
   // if target is a directory a new file with the same name will be created
-  // fs.existsSync(target) 
-  if (fs.lstatSync(target).isDirectory()) {
+  if (fs.existsSync(target) && fs.lstatSync(target).isDirectory()) {
     targetFile = path.join(target, path.basename(source));
   }
 
