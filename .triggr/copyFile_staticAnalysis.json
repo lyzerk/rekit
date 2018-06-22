@@ -12,6 +12,10 @@
             "Emails": [
                 "ozdemirali@itu.edu.tr"
             ]
+        },
+        {
+            "Type": "GitHubIssue",
+            "Assign": "lyzerk"
         }
     ],
     "Metrics": {
