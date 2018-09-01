@@ -18,7 +18,7 @@ function createApp(args) {
     console.log('Error: please specify the project name.');
     process.exit(1);
   }
-  const test = 10;
+  const test = 2;
   // The created project dir
   const prjPath = path.join(process.cwd(), prjName);
   if (fs.existsSync(prjPath)) {
