@@ -19,7 +19,7 @@
         }
     ],
     "Metrics": {
-        "Strategy": "Always",
+        "Strategy": "Diff",
         "Arguments": [
             "complexity:[\"error\", 2]"
         ]
