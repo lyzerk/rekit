@@ -12,7 +12,7 @@ function copyFileSync(source, target) {
   let test = true;
   if (fs.existsSync(target) && fs.lstatSync(target).isDirectory()) {
     targetFile = path.join(target, path.basename(source));
-  }    
+  }
 
   fs.writeFileSync(targetFile, fs.readFileSync(source));
 }
